@@ -107,3 +107,115 @@ caption {
     left: 42%;
   }
 }
+
+.cardsList {
+  width: 100%;
+  height: 100%;
+  margin: 100px 40px;
+}
+
+.card {
+  width: 90%;
+  height: 168px;
+  display: flex;
+}
+
+.imagePart {
+  width: 125px;
+  height: 168px;
+}
+
+.textPart {
+  padding: 30px 50px;
+  width: 100%;
+}
+
+.cardImg {
+  position: absolute;
+  width: 125px;
+  height: 168px;
+  left: 40px;
+  top: 100px;
+  border-radius: 5px;
+}
+
+.countryAndLink {
+  display: flex;
+}
+
+.country {
+  position: absolute;
+  width: 40px;
+  height: 10px;
+  top: 119px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.googleLink {
+  position: absolute;
+  height: 13px;
+  top: 119px;
+  left: 120px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.24px;
+  line-height: 12px;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  color: #918E9B;
+}
+
+.title {
+  position: absolute;
+  width: 326px;
+  height: 45px;
+  top: 143px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.dates {
+  position: absolute;
+  width: 319px;
+  height: 11px;
+  top: 185px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.description {
+  position: absolute;
+  width: 45%;
+  height: 45px;
+  top: 205px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.24px;
+  line-height: 150%;
+  color: #2B283A;
+
+}
+
+.textPart {
+  position: absolute;
+  top: -10px;
+  left: 145px;
+}
