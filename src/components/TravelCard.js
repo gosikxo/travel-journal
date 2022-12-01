@@ -9,7 +9,7 @@ export const TravelCard = (props) => {
             <div className='textPart'>
                 <div className='countryAndLink'>
                     <img className='locationPin' src='/images/684908.png' alt='locationPin'/>
-                    <p className='country'>Japan</p>
+                    <p className='country'>{props.country}</p>
                     <a className='googleLink' href={props.link}>View on Google Maps</a>
                 </div>
                 <h1 className='title'>{props.location}</h1>
